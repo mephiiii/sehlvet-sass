@@ -1,0 +1,3551 @@
+@charset "UTF-8";
+@font-face {
+  font-family: wilkysta;
+  src: url(../font/wilkysta.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0eadc;
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  color: black;
+}
+
+main {
+  width: 100%;
+}
+
+.mainpage {
+  margin: 0 auto;
+}
+
+/*xl screen*/
+@media screen and (min-width: 1200px) {
+  /*width global class*/
+  .col-xl-1 {
+    width: 8.3333333%;
+  }
+  /*padding global class*/
+  .pt-xl-1 {
+    padding-top: 8.3333333%;
+  }
+  .pb-xl-1 {
+    padding-bottom: 8.3333333%;
+  }
+  .pr-xl-1 {
+    padding-right: 8.3333333%;
+  }
+  .pl-xl-1 {
+    padding-left: 8.3333333%;
+  }
+  /*margin global class*/
+  .mt-xl-1 {
+    margin-top: 8.3333333%;
+  }
+  .mb-xl-1 {
+    margin-bottom: 8.3333333%;
+  }
+  .mr-xl-1 {
+    margin-right: 8.3333333%;
+  }
+  .ml-xl-1 {
+    margin-left: 8.3333333%;
+  }
+  /*width global class*/
+  .col-xl-2 {
+    width: 16.6666666%;
+  }
+  /*padding global class*/
+  .pt-xl-2 {
+    padding-top: 16.6666666%;
+  }
+  .pb-xl-2 {
+    padding-bottom: 16.6666666%;
+  }
+  .pr-xl-2 {
+    padding-right: 16.6666666%;
+  }
+  .pl-xl-2 {
+    padding-left: 16.6666666%;
+  }
+  /*margin global class*/
+  .mt-xl-2 {
+    margin-top: 16.6666666%;
+  }
+  .mb-xl-2 {
+    margin-bottom: 16.6666666%;
+  }
+  .mr-xl-2 {
+    margin-right: 16.6666666%;
+  }
+  .ml-xl-2 {
+    margin-left: 16.6666666%;
+  }
+  /*width global class*/
+  .col-xl-3 {
+    width: 24.9999999%;
+  }
+  /*padding global class*/
+  .pt-xl-3 {
+    padding-top: 24.9999999%;
+  }
+  .pb-xl-3 {
+    padding-bottom: 24.9999999%;
+  }
+  .pr-xl-3 {
+    padding-right: 24.9999999%;
+  }
+  .pl-xl-3 {
+    padding-left: 24.9999999%;
+  }
+  /*margin global class*/
+  .mt-xl-3 {
+    margin-top: 24.9999999%;
+  }
+  .mb-xl-3 {
+    margin-bottom: 24.9999999%;
+  }
+  .mr-xl-3 {
+    margin-right: 24.9999999%;
+  }
+  .ml-xl-3 {
+    margin-left: 24.9999999%;
+  }
+  /*width global class*/
+  .col-xl-4 {
+    width: 33.3333332%;
+  }
+  /*padding global class*/
+  .pt-xl-4 {
+    padding-top: 33.3333332%;
+  }
+  .pb-xl-4 {
+    padding-bottom: 33.3333332%;
+  }
+  .pr-xl-4 {
+    padding-right: 33.3333332%;
+  }
+  .pl-xl-4 {
+    padding-left: 33.3333332%;
+  }
+  /*margin global class*/
+  .mt-xl-4 {
+    margin-top: 33.3333332%;
+  }
+  .mb-xl-4 {
+    margin-bottom: 33.3333332%;
+  }
+  .mr-xl-4 {
+    margin-right: 33.3333332%;
+  }
+  .ml-xl-4 {
+    margin-left: 33.3333332%;
+  }
+  /*width global class*/
+  .col-xl-5 {
+    width: 41.6666665%;
+  }
+  /*padding global class*/
+  .pt-xl-5 {
+    padding-top: 41.6666665%;
+  }
+  .pb-xl-5 {
+    padding-bottom: 41.6666665%;
+  }
+  .pr-xl-5 {
+    padding-right: 41.6666665%;
+  }
+  .pl-xl-5 {
+    padding-left: 41.6666665%;
+  }
+  /*margin global class*/
+  .mt-xl-5 {
+    margin-top: 41.6666665%;
+  }
+  .mb-xl-5 {
+    margin-bottom: 41.6666665%;
+  }
+  .mr-xl-5 {
+    margin-right: 41.6666665%;
+  }
+  .ml-xl-5 {
+    margin-left: 41.6666665%;
+  }
+  /*width global class*/
+  .col-xl-6 {
+    width: 49.9999998%;
+  }
+  /*padding global class*/
+  .pt-xl-6 {
+    padding-top: 49.9999998%;
+  }
+  .pb-xl-6 {
+    padding-bottom: 49.9999998%;
+  }
+  .pr-xl-6 {
+    padding-right: 49.9999998%;
+  }
+  .pl-xl-6 {
+    padding-left: 49.9999998%;
+  }
+  /*margin global class*/
+  .mt-xl-6 {
+    margin-top: 49.9999998%;
+  }
+  .mb-xl-6 {
+    margin-bottom: 49.9999998%;
+  }
+  .mr-xl-6 {
+    margin-right: 49.9999998%;
+  }
+  .ml-xl-6 {
+    margin-left: 49.9999998%;
+  }
+  /*width global class*/
+  .col-xl-7 {
+    width: 58.3333331%;
+  }
+  /*padding global class*/
+  .pt-xl-7 {
+    padding-top: 58.3333331%;
+  }
+  .pb-xl-7 {
+    padding-bottom: 58.3333331%;
+  }
+  .pr-xl-7 {
+    padding-right: 58.3333331%;
+  }
+  .pl-xl-7 {
+    padding-left: 58.3333331%;
+  }
+  /*margin global class*/
+  .mt-xl-7 {
+    margin-top: 58.3333331%;
+  }
+  .mb-xl-7 {
+    margin-bottom: 58.3333331%;
+  }
+  .mr-xl-7 {
+    margin-right: 58.3333331%;
+  }
+  .ml-xl-7 {
+    margin-left: 58.3333331%;
+  }
+  /*width global class*/
+  .col-xl-8 {
+    width: 66.6666664%;
+  }
+  /*padding global class*/
+  .pt-xl-8 {
+    padding-top: 66.6666664%;
+  }
+  .pb-xl-8 {
+    padding-bottom: 66.6666664%;
+  }
+  .pr-xl-8 {
+    padding-right: 66.6666664%;
+  }
+  .pl-xl-8 {
+    padding-left: 66.6666664%;
+  }
+  /*margin global class*/
+  .mt-xl-8 {
+    margin-top: 66.6666664%;
+  }
+  .mb-xl-8 {
+    margin-bottom: 66.6666664%;
+  }
+  .mr-xl-8 {
+    margin-right: 66.6666664%;
+  }
+  .ml-xl-8 {
+    margin-left: 66.6666664%;
+  }
+  /*width global class*/
+  .col-xl-9 {
+    width: 74.9999997%;
+  }
+  /*padding global class*/
+  .pt-xl-9 {
+    padding-top: 74.9999997%;
+  }
+  .pb-xl-9 {
+    padding-bottom: 74.9999997%;
+  }
+  .pr-xl-9 {
+    padding-right: 74.9999997%;
+  }
+  .pl-xl-9 {
+    padding-left: 74.9999997%;
+  }
+  /*margin global class*/
+  .mt-xl-9 {
+    margin-top: 74.9999997%;
+  }
+  .mb-xl-9 {
+    margin-bottom: 74.9999997%;
+  }
+  .mr-xl-9 {
+    margin-right: 74.9999997%;
+  }
+  .ml-xl-9 {
+    margin-left: 74.9999997%;
+  }
+  /*width global class*/
+  .col-xl-10 {
+    width: 83.333333%;
+  }
+  /*padding global class*/
+  .pt-xl-10 {
+    padding-top: 83.333333%;
+  }
+  .pb-xl-10 {
+    padding-bottom: 83.333333%;
+  }
+  .pr-xl-10 {
+    padding-right: 83.333333%;
+  }
+  .pl-xl-10 {
+    padding-left: 83.333333%;
+  }
+  /*margin global class*/
+  .mt-xl-10 {
+    margin-top: 83.333333%;
+  }
+  .mb-xl-10 {
+    margin-bottom: 83.333333%;
+  }
+  .mr-xl-10 {
+    margin-right: 83.333333%;
+  }
+  .ml-xl-10 {
+    margin-left: 83.333333%;
+  }
+  /*width global class*/
+  .col-xl-11 {
+    width: 91.6666663%;
+  }
+  /*padding global class*/
+  .pt-xl-11 {
+    padding-top: 91.6666663%;
+  }
+  .pb-xl-11 {
+    padding-bottom: 91.6666663%;
+  }
+  .pr-xl-11 {
+    padding-right: 91.6666663%;
+  }
+  .pl-xl-11 {
+    padding-left: 91.6666663%;
+  }
+  /*margin global class*/
+  .mt-xl-11 {
+    margin-top: 91.6666663%;
+  }
+  .mb-xl-11 {
+    margin-bottom: 91.6666663%;
+  }
+  .mr-xl-11 {
+    margin-right: 91.6666663%;
+  }
+  .ml-xl-11 {
+    margin-left: 91.6666663%;
+  }
+  /*width global class*/
+  .col-xl-12 {
+    width: 99.9999996%;
+  }
+  /*padding global class*/
+  .pt-xl-12 {
+    padding-top: 99.9999996%;
+  }
+  .pb-xl-12 {
+    padding-bottom: 99.9999996%;
+  }
+  .pr-xl-12 {
+    padding-right: 99.9999996%;
+  }
+  .pl-xl-12 {
+    padding-left: 99.9999996%;
+  }
+  /*margin global class*/
+  .mt-xl-12 {
+    margin-top: 99.9999996%;
+  }
+  .mb-xl-12 {
+    margin-bottom: 99.9999996%;
+  }
+  .mr-xl-12 {
+    margin-right: 99.9999996%;
+  }
+  .ml-xl-12 {
+    margin-left: 99.9999996%;
+  }
+  main {
+    /*----------------style section manu-------------*/
+    /*------style section title in contabers-------*/
+    /*style contaner Tranding*/
+    /*------style section summer-------*/
+    /*------style section winter-------*/
+    /*------style section slider customer-------*/
+  }
+  main .menu nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    margin: 0 auto;
+    color: #2f2f2f;
+  }
+  main .menu nav .logo {
+    display: flex;
+    font-size: 38px;
+    font-weight: bold;
+  }
+  main .menu nav .mainmenu {
+    display: flex;
+  }
+  main .menu nav .mainmenu ul {
+    display: flex;
+  }
+  main .menu nav .mainmenu ul li {
+    margin-right: 40px;
+    font-size: 28px;
+    font-weight: 400;
+  }
+  main .menu nav .mainmenu ul li a:hover {
+    color: #754f23;
+  }
+  main .menu nav .icon {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .menu nav .icon img {
+    width: 24px;
+    height: 30px;
+  }
+  main .banner {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    direction: rtl;
+    position: relative;
+  }
+  main .banner .sectionimg img {
+    width: 550px;
+  }
+  main .banner .text {
+    direction: ltr;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    top: 150px;
+    right: 0px;
+    text-align: left;
+    width: 350px;
+  }
+  main .banner .text h1 {
+    font-size: 55px;
+    font-family: wilkysta;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 70px;
+  }
+  main .banner .text p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+  }
+  main .banner .text a {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    background-color: #754f23;
+    padding: 15px 15px;
+    color: white;
+    font-size: 25px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+  }
+  main .banner .text a img {
+    width: 30px;
+  }
+  main .title h2 {
+    font-size: 64px;
+    font-family: wilkysta;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 4px;
+  }
+  main .title span {
+    font-size: 36px;
+  }
+  main .title .liner {
+    height: 2px;
+    background-color: #754f23;
+  }
+  main .title p {
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  main .tranding {
+    margin-top: 60px;
+  }
+  main .tranding .contaner {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    padding: 50px 0;
+  }
+  main .tranding .contaner .card:nth-child(1) {
+    margin-top: 120px;
+  }
+  main .tranding .contaner .card:nth-child(2) {
+    width: 440px;
+    height: 650px;
+  }
+  main .tranding .contaner .card:nth-child(2) img {
+    width: 100%; /*برای اینکه دیو شاپ از کدر خارج نشه از % برای عرض و ارتفاع تصویر ستفاده میکنیم */
+    height: 78%;
+  }
+  main .tranding .contaner .card:nth-child(3) {
+    margin-top: 65px;
+  }
+  main .tranding .contaner .card {
+    border: 1px solid #754f23;
+    border-radius: 16px;
+    padding: 14px 14px 6px 14px;
+    width: 310px;
+    height: 480px;
+    text-align: center;
+  }
+  main .tranding .contaner .card img {
+    width: 280px;
+    border-radius: 16px;
+  }
+  main .tranding .contaner .card h4 {
+    font-size: 24px;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 24px 0;
+  }
+  main .tranding .contaner .card .shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  main .tranding .contaner .card .shop img {
+    width: 25px;
+  }
+  main .tranding .contaner .view__all_btn {
+    position: absolute;
+    bottom: 35px;
+    right: 0px;
+    padding: 10px 32px;
+    border: 1px solid #754f23;
+    border-radius: 16px;
+    font-size: 24px;
+  }
+  main .tranding .contaner .view__all_btn:hover {
+    color: #754f23;
+  }
+  main .summer {
+    margin-top: 100px;
+  }
+  main .summer .contaner {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    padding: 50px 0;
+  }
+  main .summer .contaner .summeritem {
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+  }
+  main .summer .contaner .summeritem p {
+    padding: 0 45px;
+    margin: 30px auto;
+    font-size: 18px;
+    line-height: 25px;
+    width: 450px;
+  }
+  main .summer .contaner .summeritem p:first-child {
+    margin: 0 0 40px 0;
+    padding: 0;
+  }
+  main .summer .contaner .summeritem:nth-child(2) {
+    text-align: left;
+  }
+  main .summer .contaner .summeritem div {
+    text-align: right;
+    position: relative;
+  }
+  main .summer .contaner .summeritem div img:nth-child(1) {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+  }
+  main .summer .contaner .view__all_btn {
+    position: absolute;
+    bottom: 35px;
+    right: 0px;
+  }
+  main .winter {
+    margin-top: 100px;
+  }
+  main .winter .title {
+    text-align: right;
+  }
+  main .winter .title div {
+    margin-left: 65%;
+  }
+  main .winter .contaner {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    padding: 50px 0;
+  }
+  main .winter .contaner .summeritem {
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+  }
+  main .winter .contaner .summeritem p {
+    padding: 0 45px;
+    margin: 30px auto;
+    font-size: 18px;
+    line-height: 25px;
+    width: 85%;
+    text-align: left;
+  }
+  main .winter .contaner .summeritem p:first-child {
+    margin: 0 0 40px 0;
+    padding: 0;
+  }
+  main .winter .contaner .summeritem:nth-child(2) {
+    text-align: left;
+  }
+  main .winter .contaner .summeritem div {
+    text-align: right;
+    position: relative;
+  }
+  main .winter .contaner .summeritem div img:nth-child(1) {
+    width: 350px;
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+  }
+  main .winter .contaner .summeritem:nth-child(3) {
+    margin: 250px 0 0 70px;
+  }
+  main .winter .contaner .view__all_btn {
+    position: absolute;
+    bottom: 60%;
+    right: 0px;
+  }
+  main .customer {
+    margin-bottom: 100px;
+  }
+  main .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  main .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .swiper-slide img {
+    display: block;
+    object-fit: cover;
+  }
+  main .slider {
+    width: 100%;
+    height: 400px;
+  }
+  main .swiper-slide .cardslide {
+    display: flex;
+    margin-left: 60px;
+  }
+  main .swiper-slide .cardslide .text {
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: left;
+    width: 50%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: self-start;
+  }
+  main .swiper-slide .cardslide .text span {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  main .menumobile {
+    display: none;
+  }
+}
+/*lg screen*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /*width global class*/
+  .col-lg-1 {
+    width: 8.3333333%;
+  }
+  /*padding global class*/
+  .pt-lg-1 {
+    padding-top: 8.3333333%;
+  }
+  .pb-lg-1 {
+    padding-bottom: 8.3333333%;
+  }
+  .pr-lg-1 {
+    padding-right: 8.3333333%;
+  }
+  .pl-lg-1 {
+    padding-left: 8.3333333%;
+  }
+  /*margin global class*/
+  .mt-lg-1 {
+    margin-top: 8.3333333%;
+  }
+  .mb-lg-1 {
+    margin-bottom: 8.3333333%;
+  }
+  .mr-lg-1 {
+    margin-right: 8.3333333%;
+  }
+  .ml-lg-1 {
+    margin-left: 8.3333333%;
+  }
+  /*width global class*/
+  .col-lg-2 {
+    width: 16.6666666%;
+  }
+  /*padding global class*/
+  .pt-lg-2 {
+    padding-top: 16.6666666%;
+  }
+  .pb-lg-2 {
+    padding-bottom: 16.6666666%;
+  }
+  .pr-lg-2 {
+    padding-right: 16.6666666%;
+  }
+  .pl-lg-2 {
+    padding-left: 16.6666666%;
+  }
+  /*margin global class*/
+  .mt-lg-2 {
+    margin-top: 16.6666666%;
+  }
+  .mb-lg-2 {
+    margin-bottom: 16.6666666%;
+  }
+  .mr-lg-2 {
+    margin-right: 16.6666666%;
+  }
+  .ml-lg-2 {
+    margin-left: 16.6666666%;
+  }
+  /*width global class*/
+  .col-lg-3 {
+    width: 24.9999999%;
+  }
+  /*padding global class*/
+  .pt-lg-3 {
+    padding-top: 24.9999999%;
+  }
+  .pb-lg-3 {
+    padding-bottom: 24.9999999%;
+  }
+  .pr-lg-3 {
+    padding-right: 24.9999999%;
+  }
+  .pl-lg-3 {
+    padding-left: 24.9999999%;
+  }
+  /*margin global class*/
+  .mt-lg-3 {
+    margin-top: 24.9999999%;
+  }
+  .mb-lg-3 {
+    margin-bottom: 24.9999999%;
+  }
+  .mr-lg-3 {
+    margin-right: 24.9999999%;
+  }
+  .ml-lg-3 {
+    margin-left: 24.9999999%;
+  }
+  /*width global class*/
+  .col-lg-4 {
+    width: 33.3333332%;
+  }
+  /*padding global class*/
+  .pt-lg-4 {
+    padding-top: 33.3333332%;
+  }
+  .pb-lg-4 {
+    padding-bottom: 33.3333332%;
+  }
+  .pr-lg-4 {
+    padding-right: 33.3333332%;
+  }
+  .pl-lg-4 {
+    padding-left: 33.3333332%;
+  }
+  /*margin global class*/
+  .mt-lg-4 {
+    margin-top: 33.3333332%;
+  }
+  .mb-lg-4 {
+    margin-bottom: 33.3333332%;
+  }
+  .mr-lg-4 {
+    margin-right: 33.3333332%;
+  }
+  .ml-lg-4 {
+    margin-left: 33.3333332%;
+  }
+  /*width global class*/
+  .col-lg-5 {
+    width: 41.6666665%;
+  }
+  /*padding global class*/
+  .pt-lg-5 {
+    padding-top: 41.6666665%;
+  }
+  .pb-lg-5 {
+    padding-bottom: 41.6666665%;
+  }
+  .pr-lg-5 {
+    padding-right: 41.6666665%;
+  }
+  .pl-lg-5 {
+    padding-left: 41.6666665%;
+  }
+  /*margin global class*/
+  .mt-lg-5 {
+    margin-top: 41.6666665%;
+  }
+  .mb-lg-5 {
+    margin-bottom: 41.6666665%;
+  }
+  .mr-lg-5 {
+    margin-right: 41.6666665%;
+  }
+  .ml-lg-5 {
+    margin-left: 41.6666665%;
+  }
+  /*width global class*/
+  .col-lg-6 {
+    width: 49.9999998%;
+  }
+  /*padding global class*/
+  .pt-lg-6 {
+    padding-top: 49.9999998%;
+  }
+  .pb-lg-6 {
+    padding-bottom: 49.9999998%;
+  }
+  .pr-lg-6 {
+    padding-right: 49.9999998%;
+  }
+  .pl-lg-6 {
+    padding-left: 49.9999998%;
+  }
+  /*margin global class*/
+  .mt-lg-6 {
+    margin-top: 49.9999998%;
+  }
+  .mb-lg-6 {
+    margin-bottom: 49.9999998%;
+  }
+  .mr-lg-6 {
+    margin-right: 49.9999998%;
+  }
+  .ml-lg-6 {
+    margin-left: 49.9999998%;
+  }
+  /*width global class*/
+  .col-lg-7 {
+    width: 58.3333331%;
+  }
+  /*padding global class*/
+  .pt-lg-7 {
+    padding-top: 58.3333331%;
+  }
+  .pb-lg-7 {
+    padding-bottom: 58.3333331%;
+  }
+  .pr-lg-7 {
+    padding-right: 58.3333331%;
+  }
+  .pl-lg-7 {
+    padding-left: 58.3333331%;
+  }
+  /*margin global class*/
+  .mt-lg-7 {
+    margin-top: 58.3333331%;
+  }
+  .mb-lg-7 {
+    margin-bottom: 58.3333331%;
+  }
+  .mr-lg-7 {
+    margin-right: 58.3333331%;
+  }
+  .ml-lg-7 {
+    margin-left: 58.3333331%;
+  }
+  /*width global class*/
+  .col-lg-8 {
+    width: 66.6666664%;
+  }
+  /*padding global class*/
+  .pt-lg-8 {
+    padding-top: 66.6666664%;
+  }
+  .pb-lg-8 {
+    padding-bottom: 66.6666664%;
+  }
+  .pr-lg-8 {
+    padding-right: 66.6666664%;
+  }
+  .pl-lg-8 {
+    padding-left: 66.6666664%;
+  }
+  /*margin global class*/
+  .mt-lg-8 {
+    margin-top: 66.6666664%;
+  }
+  .mb-lg-8 {
+    margin-bottom: 66.6666664%;
+  }
+  .mr-lg-8 {
+    margin-right: 66.6666664%;
+  }
+  .ml-lg-8 {
+    margin-left: 66.6666664%;
+  }
+  /*width global class*/
+  .col-lg-9 {
+    width: 74.9999997%;
+  }
+  /*padding global class*/
+  .pt-lg-9 {
+    padding-top: 74.9999997%;
+  }
+  .pb-lg-9 {
+    padding-bottom: 74.9999997%;
+  }
+  .pr-lg-9 {
+    padding-right: 74.9999997%;
+  }
+  .pl-lg-9 {
+    padding-left: 74.9999997%;
+  }
+  /*margin global class*/
+  .mt-lg-9 {
+    margin-top: 74.9999997%;
+  }
+  .mb-lg-9 {
+    margin-bottom: 74.9999997%;
+  }
+  .mr-lg-9 {
+    margin-right: 74.9999997%;
+  }
+  .ml-lg-9 {
+    margin-left: 74.9999997%;
+  }
+  /*width global class*/
+  .col-lg-10 {
+    width: 83.333333%;
+  }
+  /*padding global class*/
+  .pt-lg-10 {
+    padding-top: 83.333333%;
+  }
+  .pb-lg-10 {
+    padding-bottom: 83.333333%;
+  }
+  .pr-lg-10 {
+    padding-right: 83.333333%;
+  }
+  .pl-lg-10 {
+    padding-left: 83.333333%;
+  }
+  /*margin global class*/
+  .mt-lg-10 {
+    margin-top: 83.333333%;
+  }
+  .mb-lg-10 {
+    margin-bottom: 83.333333%;
+  }
+  .mr-lg-10 {
+    margin-right: 83.333333%;
+  }
+  .ml-lg-10 {
+    margin-left: 83.333333%;
+  }
+  /*width global class*/
+  .col-lg-11 {
+    width: 91.6666663%;
+  }
+  /*padding global class*/
+  .pt-lg-11 {
+    padding-top: 91.6666663%;
+  }
+  .pb-lg-11 {
+    padding-bottom: 91.6666663%;
+  }
+  .pr-lg-11 {
+    padding-right: 91.6666663%;
+  }
+  .pl-lg-11 {
+    padding-left: 91.6666663%;
+  }
+  /*margin global class*/
+  .mt-lg-11 {
+    margin-top: 91.6666663%;
+  }
+  .mb-lg-11 {
+    margin-bottom: 91.6666663%;
+  }
+  .mr-lg-11 {
+    margin-right: 91.6666663%;
+  }
+  .ml-lg-11 {
+    margin-left: 91.6666663%;
+  }
+  /*width global class*/
+  .col-lg-12 {
+    width: 99.9999996%;
+  }
+  /*padding global class*/
+  .pt-lg-12 {
+    padding-top: 99.9999996%;
+  }
+  .pb-lg-12 {
+    padding-bottom: 99.9999996%;
+  }
+  .pr-lg-12 {
+    padding-right: 99.9999996%;
+  }
+  .pl-lg-12 {
+    padding-left: 99.9999996%;
+  }
+  /*margin global class*/
+  .mt-lg-12 {
+    margin-top: 99.9999996%;
+  }
+  .mb-lg-12 {
+    margin-bottom: 99.9999996%;
+  }
+  .mr-lg-12 {
+    margin-right: 99.9999996%;
+  }
+  .ml-lg-12 {
+    margin-left: 99.9999996%;
+  }
+  main {
+    /*----------------style section manu-------------*/
+    /*------style section title in contabers-------*/
+    /*style contaner Tranding*/
+    /*------style section summer-------*/
+    /*------style section winter-------*/
+    /*------style section slider customer-------*/
+  }
+  main .menu nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    margin: 0 auto;
+    color: #2f2f2f;
+  }
+  main .menu nav .logo {
+    display: flex;
+    font-size: 38px;
+    font-weight: bold;
+  }
+  main .menu nav .mainmenu {
+    display: flex;
+  }
+  main .menu nav .mainmenu ul {
+    display: flex;
+  }
+  main .menu nav .mainmenu ul li {
+    margin-right: 40px;
+    font-size: 28px;
+    font-weight: 400;
+  }
+  main .menu nav .mainmenu ul li a:hover {
+    color: #754f23;
+  }
+  main .menu nav .icon {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .menu nav .icon img {
+    width: 24px;
+    height: 30px;
+  }
+  main .banner {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    direction: rtl;
+    position: relative;
+  }
+  main .banner .sectionimg img {
+    width: 450px;
+  }
+  main .banner .text {
+    direction: ltr;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 100px;
+    right: 0px;
+    text-align: left;
+  }
+  main .banner .text h1 {
+    font-size: 45px;
+    font-family: wilkysta;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 60px;
+  }
+  main .banner .text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+  }
+  main .banner .text a {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 180px;
+    background-color: #754f23;
+    padding: 12px 15px;
+    color: white;
+    font-size: 22px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+  }
+  main .banner .text a img {
+    width: 30px;
+  }
+  main .title h2 {
+    font-size: 64px;
+    font-family: wilkysta;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 4px;
+  }
+  main .title span {
+    font-size: 36px;
+  }
+  main .title .liner {
+    height: 2px;
+    background-color: #754f23;
+  }
+  main .title p {
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  main .tranding {
+    margin-top: 60px;
+  }
+  main .tranding .contaner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* این خط باعث میشه آیتم‌ها تو خط جدید برن */
+    gap: 50px;
+    align-items: center; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    margin: 0 auto;
+    padding: 5px 0;
+  }
+  main .tranding .contaner .card:nth-child(2) {
+    width: 400px;
+    height: 550px;
+  }
+  main .tranding .contaner .card:nth-child(2) img {
+    width: 90%; /*برای اینکه دیو شاپ از کدر خارج نشه از % برای عرض و ارتفاع تصویر ستفاده میکنیم */
+    height: 75%;
+  }
+  main .tranding .contaner .card {
+    border: 1px solid #754f23;
+    border-radius: 16px;
+    padding: 14px 14px 6px 14px;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+  }
+  main .tranding .contaner .card img {
+    width: 250px;
+    border-radius: 16px;
+  }
+  main .tranding .contaner .card h4 {
+    font-size: 22px;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 24px 0;
+  }
+  main .tranding .contaner .card .shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  main .tranding .contaner .card .shop img {
+    width: 25px;
+  }
+  main .tranding .contaner .view__all_btn {
+    position: relative;
+    bottom: -50px;
+    left: 5%;
+    padding: 10px 32px;
+    border: 1px solid #754f23;
+    border-radius: 16px;
+    font-size: 24px;
+  }
+  main .tranding .contaner .view__all_btn:hover {
+    color: #754f23;
+  }
+  main .summer {
+    margin-top: 100px;
+  }
+  main .summer .contaner {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    padding: 50px 0;
+  }
+  main .summer .contaner .summeritem {
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+  }
+  main .summer .contaner .summeritem p {
+    padding: 0 45px;
+    margin: 30px auto;
+    font-size: 17px;
+    line-height: 25px;
+    width: 400px;
+  }
+  main .summer .contaner .summeritem p:first-child {
+    margin: 0 0 40px 0;
+    padding: 0;
+  }
+  main .summer .contaner .summeritem:nth-child(2) {
+    text-align: left;
+  }
+  main .summer .contaner .summeritem img {
+    width: 380px;
+  }
+  main .summer .contaner .summeritem div {
+    text-align: right;
+    position: relative;
+  }
+  main .summer .contaner .summeritem div img {
+    width: 380px;
+  }
+  main .summer .contaner .summeritem div img:nth-child(1) {
+    width: 220px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+  }
+  main .summer .contaner .view__all_btn {
+    position: absolute;
+    bottom: 35px;
+    right: 0px;
+  }
+  main .winter {
+    margin-top: 20px;
+  }
+  main .winter .title {
+    text-align: right;
+  }
+  main .winter .title div {
+    margin-left: 65%;
+  }
+  main .winter .contaner {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    padding: 50px 0;
+  }
+  main .winter .contaner .summeritem {
+    width: 60%;
+    text-align: center;
+    margin-top: 0px;
+  }
+  main .winter .contaner .summeritem p {
+    padding: 0 45px;
+    margin: 30px auto;
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%;
+    text-align: left;
+  }
+  main .winter .contaner .summeritem p:first-child {
+    margin: 0 0 40px 0;
+    padding: 0;
+  }
+  main .winter .contaner .summeritem:nth-child(2) {
+    text-align: left;
+  }
+  main .winter .contaner .summeritem div {
+    text-align: right;
+    position: relative;
+  }
+  main .winter .contaner .summeritem div img:nth-child(1) {
+    width: 380px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  main .winter .contaner .summeritem:nth-child(3) {
+    width: 30%;
+    margin: 250px 0 0 70px;
+  }
+  main .winter .contaner .view__all_btn {
+    position: absolute;
+    bottom: 60%;
+    right: 0px;
+  }
+  main .customer {
+    margin-bottom: 100px;
+  }
+  main .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  main .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .swiper-slide img {
+    display: block;
+    object-fit: cover;
+  }
+  main .slider {
+    width: 100%;
+    height: 400px;
+  }
+  main .swiper-slide .cardslide {
+    display: flex;
+    margin-left: 60px;
+  }
+  main .swiper-slide .cardslide .text {
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: left;
+    width: 50%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: self-start;
+  }
+  main .swiper-slide .cardslide .text span {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  main .menumobile {
+    display: none;
+  }
+}
+/*md screen*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /*width global class*/
+  .col-md-1 {
+    width: 8.3333333%;
+  }
+  /*padding global class*/
+  .pt-md-1 {
+    padding-top: 8.3333333%;
+  }
+  .pb-md-1 {
+    padding-bottom: 8.3333333%;
+  }
+  .pr-md-1 {
+    padding-right: 8.3333333%;
+  }
+  .pl-md-1 {
+    padding-left: 8.3333333%;
+  }
+  /*margin global class*/
+  .mt-md-1 {
+    margin-top: 8.3333333%;
+  }
+  .mb-md-1 {
+    margin-bottom: 8.3333333%;
+  }
+  .mr-md-1 {
+    margin-right: 8.3333333%;
+  }
+  .ml-md-1 {
+    margin-left: 8.3333333%;
+  }
+  /*width global class*/
+  .col-md-2 {
+    width: 16.6666666%;
+  }
+  /*padding global class*/
+  .pt-md-2 {
+    padding-top: 16.6666666%;
+  }
+  .pb-md-2 {
+    padding-bottom: 16.6666666%;
+  }
+  .pr-md-2 {
+    padding-right: 16.6666666%;
+  }
+  .pl-md-2 {
+    padding-left: 16.6666666%;
+  }
+  /*margin global class*/
+  .mt-md-2 {
+    margin-top: 16.6666666%;
+  }
+  .mb-md-2 {
+    margin-bottom: 16.6666666%;
+  }
+  .mr-md-2 {
+    margin-right: 16.6666666%;
+  }
+  .ml-md-2 {
+    margin-left: 16.6666666%;
+  }
+  /*width global class*/
+  .col-md-3 {
+    width: 24.9999999%;
+  }
+  /*padding global class*/
+  .pt-md-3 {
+    padding-top: 24.9999999%;
+  }
+  .pb-md-3 {
+    padding-bottom: 24.9999999%;
+  }
+  .pr-md-3 {
+    padding-right: 24.9999999%;
+  }
+  .pl-md-3 {
+    padding-left: 24.9999999%;
+  }
+  /*margin global class*/
+  .mt-md-3 {
+    margin-top: 24.9999999%;
+  }
+  .mb-md-3 {
+    margin-bottom: 24.9999999%;
+  }
+  .mr-md-3 {
+    margin-right: 24.9999999%;
+  }
+  .ml-md-3 {
+    margin-left: 24.9999999%;
+  }
+  /*width global class*/
+  .col-md-4 {
+    width: 33.3333332%;
+  }
+  /*padding global class*/
+  .pt-md-4 {
+    padding-top: 33.3333332%;
+  }
+  .pb-md-4 {
+    padding-bottom: 33.3333332%;
+  }
+  .pr-md-4 {
+    padding-right: 33.3333332%;
+  }
+  .pl-md-4 {
+    padding-left: 33.3333332%;
+  }
+  /*margin global class*/
+  .mt-md-4 {
+    margin-top: 33.3333332%;
+  }
+  .mb-md-4 {
+    margin-bottom: 33.3333332%;
+  }
+  .mr-md-4 {
+    margin-right: 33.3333332%;
+  }
+  .ml-md-4 {
+    margin-left: 33.3333332%;
+  }
+  /*width global class*/
+  .col-md-5 {
+    width: 41.6666665%;
+  }
+  /*padding global class*/
+  .pt-md-5 {
+    padding-top: 41.6666665%;
+  }
+  .pb-md-5 {
+    padding-bottom: 41.6666665%;
+  }
+  .pr-md-5 {
+    padding-right: 41.6666665%;
+  }
+  .pl-md-5 {
+    padding-left: 41.6666665%;
+  }
+  /*margin global class*/
+  .mt-md-5 {
+    margin-top: 41.6666665%;
+  }
+  .mb-md-5 {
+    margin-bottom: 41.6666665%;
+  }
+  .mr-md-5 {
+    margin-right: 41.6666665%;
+  }
+  .ml-md-5 {
+    margin-left: 41.6666665%;
+  }
+  /*width global class*/
+  .col-md-6 {
+    width: 49.9999998%;
+  }
+  /*padding global class*/
+  .pt-md-6 {
+    padding-top: 49.9999998%;
+  }
+  .pb-md-6 {
+    padding-bottom: 49.9999998%;
+  }
+  .pr-md-6 {
+    padding-right: 49.9999998%;
+  }
+  .pl-md-6 {
+    padding-left: 49.9999998%;
+  }
+  /*margin global class*/
+  .mt-md-6 {
+    margin-top: 49.9999998%;
+  }
+  .mb-md-6 {
+    margin-bottom: 49.9999998%;
+  }
+  .mr-md-6 {
+    margin-right: 49.9999998%;
+  }
+  .ml-md-6 {
+    margin-left: 49.9999998%;
+  }
+  /*width global class*/
+  .col-md-7 {
+    width: 58.3333331%;
+  }
+  /*padding global class*/
+  .pt-md-7 {
+    padding-top: 58.3333331%;
+  }
+  .pb-md-7 {
+    padding-bottom: 58.3333331%;
+  }
+  .pr-md-7 {
+    padding-right: 58.3333331%;
+  }
+  .pl-md-7 {
+    padding-left: 58.3333331%;
+  }
+  /*margin global class*/
+  .mt-md-7 {
+    margin-top: 58.3333331%;
+  }
+  .mb-md-7 {
+    margin-bottom: 58.3333331%;
+  }
+  .mr-md-7 {
+    margin-right: 58.3333331%;
+  }
+  .ml-md-7 {
+    margin-left: 58.3333331%;
+  }
+  /*width global class*/
+  .col-md-8 {
+    width: 66.6666664%;
+  }
+  /*padding global class*/
+  .pt-md-8 {
+    padding-top: 66.6666664%;
+  }
+  .pb-md-8 {
+    padding-bottom: 66.6666664%;
+  }
+  .pr-md-8 {
+    padding-right: 66.6666664%;
+  }
+  .pl-md-8 {
+    padding-left: 66.6666664%;
+  }
+  /*margin global class*/
+  .mt-md-8 {
+    margin-top: 66.6666664%;
+  }
+  .mb-md-8 {
+    margin-bottom: 66.6666664%;
+  }
+  .mr-md-8 {
+    margin-right: 66.6666664%;
+  }
+  .ml-md-8 {
+    margin-left: 66.6666664%;
+  }
+  /*width global class*/
+  .col-md-9 {
+    width: 74.9999997%;
+  }
+  /*padding global class*/
+  .pt-md-9 {
+    padding-top: 74.9999997%;
+  }
+  .pb-md-9 {
+    padding-bottom: 74.9999997%;
+  }
+  .pr-md-9 {
+    padding-right: 74.9999997%;
+  }
+  .pl-md-9 {
+    padding-left: 74.9999997%;
+  }
+  /*margin global class*/
+  .mt-md-9 {
+    margin-top: 74.9999997%;
+  }
+  .mb-md-9 {
+    margin-bottom: 74.9999997%;
+  }
+  .mr-md-9 {
+    margin-right: 74.9999997%;
+  }
+  .ml-md-9 {
+    margin-left: 74.9999997%;
+  }
+  /*width global class*/
+  .col-md-10 {
+    width: 83.333333%;
+  }
+  /*padding global class*/
+  .pt-md-10 {
+    padding-top: 83.333333%;
+  }
+  .pb-md-10 {
+    padding-bottom: 83.333333%;
+  }
+  .pr-md-10 {
+    padding-right: 83.333333%;
+  }
+  .pl-md-10 {
+    padding-left: 83.333333%;
+  }
+  /*margin global class*/
+  .mt-md-10 {
+    margin-top: 83.333333%;
+  }
+  .mb-md-10 {
+    margin-bottom: 83.333333%;
+  }
+  .mr-md-10 {
+    margin-right: 83.333333%;
+  }
+  .ml-md-10 {
+    margin-left: 83.333333%;
+  }
+  /*width global class*/
+  .col-md-11 {
+    width: 91.6666663%;
+  }
+  /*padding global class*/
+  .pt-md-11 {
+    padding-top: 91.6666663%;
+  }
+  .pb-md-11 {
+    padding-bottom: 91.6666663%;
+  }
+  .pr-md-11 {
+    padding-right: 91.6666663%;
+  }
+  .pl-md-11 {
+    padding-left: 91.6666663%;
+  }
+  /*margin global class*/
+  .mt-md-11 {
+    margin-top: 91.6666663%;
+  }
+  .mb-md-11 {
+    margin-bottom: 91.6666663%;
+  }
+  .mr-md-11 {
+    margin-right: 91.6666663%;
+  }
+  .ml-md-11 {
+    margin-left: 91.6666663%;
+  }
+  /*width global class*/
+  .col-md-12 {
+    width: 99.9999996%;
+  }
+  /*padding global class*/
+  .pt-md-12 {
+    padding-top: 99.9999996%;
+  }
+  .pb-md-12 {
+    padding-bottom: 99.9999996%;
+  }
+  .pr-md-12 {
+    padding-right: 99.9999996%;
+  }
+  .pl-md-12 {
+    padding-left: 99.9999996%;
+  }
+  /*margin global class*/
+  .mt-md-12 {
+    margin-top: 99.9999996%;
+  }
+  .mb-md-12 {
+    margin-bottom: 99.9999996%;
+  }
+  .mr-md-12 {
+    margin-right: 99.9999996%;
+  }
+  .ml-md-12 {
+    margin-left: 99.9999996%;
+  }
+  main {
+    /*----------------style section manu-------------*/
+    /*------style section title in contabers-------*/
+    /*style contaner Tranding*/
+    /*------style section summer-------*/
+    /*------style section winter-------*/
+    /*------style section slider customer-------*/
+    /*global style*/
+  }
+  main .menu nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    color: #2f2f2f;
+  }
+  main .menu nav .logo {
+    display: flex;
+    font-size: 38px;
+    font-weight: bold;
+  }
+  main .menu nav .mainmenu {
+    display: none;
+  }
+  main .menu nav .icon {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .menu nav .icon img {
+    width: 24px;
+    height: 30px;
+  }
+  main .banner {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    direction: rtl;
+    position: relative;
+  }
+  main .banner .sectionimg img {
+    width: 350px;
+  }
+  main .banner .text {
+    direction: ltr;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 70px;
+    right: 0px;
+    text-align: left;
+  }
+  main .banner .text h1 {
+    font-size: 38px;
+    font-family: wilkysta;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 60px;
+  }
+  main .banner .text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+  }
+  main .banner .text a {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    background-color: #754f23;
+    padding: 10px 12px;
+    color: white;
+    font-size: 16px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+  }
+  main .banner .text a img {
+    width: 30px;
+  }
+  main .title {
+    margin-top: 50px;
+  }
+  main .title h2 {
+    font-size: 40px;
+    font-family: wilkysta;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 4px;
+  }
+  main .title span {
+    font-size: 35px;
+  }
+  main .title .liner {
+    height: 2px;
+    background-color: #754f23;
+  }
+  main .title p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  main .tranding {
+    margin-top: 60px;
+  }
+  main .tranding .contaner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* این خط باعث میشه آیتم‌ها تو خط جدید برن */
+    gap: 50px;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    margin: 20px auto;
+    padding: 5px 0;
+  }
+  main .tranding .contaner .card:nth-child(2) {
+    width: 250px;
+    height: 370px;
+  }
+  main .tranding .contaner .card:nth-child(2) img {
+    width: 90%; /*برای اینکه دیو شاپ از کدر خارج نشه از % برای عرض و ارتفاع تصویر ستفاده میکنیم */
+    height: 70%;
+  }
+  main .tranding .contaner .card {
+    border: 1px solid #754f23;
+    border-radius: 16px;
+    padding: 14px 14px 6px 14px;
+    width: 250px;
+    height: 370px;
+    text-align: center;
+  }
+  main .tranding .contaner .card img {
+    width: 200px;
+    border-radius: 16px;
+  }
+  main .tranding .contaner .card h4 {
+    font-size: 16px;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 24px 0;
+  }
+  main .tranding .contaner .card .shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  main .tranding .contaner .card .shop img {
+    width: 25px;
+  }
+  main .tranding .contaner .view__all_btn {
+    position: relative;
+    bottom: -50px;
+    left: 5%;
+    padding: 10px 32px;
+    border: 1px solid #754f23;
+    border-radius: 16px;
+    font-size: 24px;
+  }
+  main .tranding .contaner .view__all_btn:hover {
+    color: #754f23;
+  }
+  main .summer {
+    margin-top: 40px;
+  }
+  main .summer .contaner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    padding: 50px 0;
+  }
+  main .summer .contaner .summeritem {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 50px;
+    margin: 0 auto;
+  }
+  main .summer .contaner .summeritem p {
+    padding: 0 20px;
+    margin: 0px auto;
+    font-size: 17px;
+    line-height: 25px;
+    width: 350px;
+  }
+  main .summer .contaner .summeritem p:first-child {
+    margin: 0 0 40px 0;
+  }
+  main .summer .contaner .summeritem:nth-child(2) {
+    text-align: left;
+  }
+  main .summer .contaner .summeritem img {
+    width: 280px;
+  }
+  main .summer .contaner .summeritem div {
+    text-align: right;
+    position: relative;
+  }
+  main .summer .contaner .summeritem div img {
+    width: 280px;
+  }
+  main .summer .contaner .summeritem div img:nth-child(1) {
+    width: 150px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+  }
+  main .summer .contaner .view__all_btn {
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+  }
+  main .winter {
+    margin-top: 50px;
+  }
+  main .winter .title {
+    text-align: right;
+  }
+  main .winter .title div {
+    margin-left: 65%;
+  }
+  main .winter .contaner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    padding: 50px 0;
+  }
+  main .winter .contaner .summeritem {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+  }
+  main .winter .contaner .summeritem p {
+    padding: 0 45px;
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%;
+    text-align: left;
+  }
+  main .winter .contaner .summeritem p:first-child {
+    margin: 0 0 40px 0;
+  }
+  main .winter .contaner .summeritem:nth-child(2) {
+    text-align: left;
+  }
+  main .winter .contaner .summeritem div {
+    width: 100%;
+    position: relative;
+  }
+  main .winter .contaner .summeritem div img:nth-child(1) {
+    width: 370px;
+    position: absolute;
+    left: 20%;
+    bottom: 0px;
+  }
+  main .winter .contaner .summeritem:nth-child(3) {
+    margin: 0;
+  }
+  main .winter .contaner .view__all_btn {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+  }
+  main .customer {
+    margin-bottom: 100px;
+  }
+  main .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  main .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .swiper-slide img {
+    display: block;
+    object-fit: cover;
+    width: 30%;
+    border-radius: 0px;
+  }
+  main .slider {
+    width: 100%;
+    height: 400px;
+  }
+  main .cardslide > div > img {
+    height: 50px;
+    width: 50px;
+  }
+  main .swiper-slide .cardslide {
+    display: flex;
+    margin-left: 50px;
+  }
+  main .swiper-slide .cardslide .text {
+    margin-left: 50px;
+    text-align: left;
+    width: 300px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    align-items: self-start;
+  }
+  main .swiper-slide .cardslide .text span {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  main .view__all_btn {
+    font-size: 20px;
+  }
+  main .menumobile {
+    background-color: rgba(255, 255, 246, 0.909); /* کرمی شفاف */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 50%; /* نصف صفحه */
+    transform: translateX(-50%);
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 0 15px gray;
+    height: 70px;
+  }
+  main .menumobile .menusvg {
+    width: 30px;
+  }
+}
+/*sm screen*/
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  /*width global class*/
+  .col-sm-1 {
+    width: 8.3333333%;
+  }
+  /*padding global class*/
+  .pt-sm-1 {
+    padding-top: 8.3333333%;
+  }
+  .pb-sm-1 {
+    padding-bottom: 8.3333333%;
+  }
+  .pr-sm-1 {
+    padding-right: 8.3333333%;
+  }
+  .pl-sm-1 {
+    padding-left: 8.3333333%;
+  }
+  /*margin global class*/
+  .mt-sm-1 {
+    margin-top: 8.3333333%;
+  }
+  .mb-sm-1 {
+    margin-bottom: 8.3333333%;
+  }
+  .mr-sm-1 {
+    margin-right: 8.3333333%;
+  }
+  .ml-sm-1 {
+    margin-left: 8.3333333%;
+  }
+  /*width global class*/
+  .col-sm-2 {
+    width: 16.6666666%;
+  }
+  /*padding global class*/
+  .pt-sm-2 {
+    padding-top: 16.6666666%;
+  }
+  .pb-sm-2 {
+    padding-bottom: 16.6666666%;
+  }
+  .pr-sm-2 {
+    padding-right: 16.6666666%;
+  }
+  .pl-sm-2 {
+    padding-left: 16.6666666%;
+  }
+  /*margin global class*/
+  .mt-sm-2 {
+    margin-top: 16.6666666%;
+  }
+  .mb-sm-2 {
+    margin-bottom: 16.6666666%;
+  }
+  .mr-sm-2 {
+    margin-right: 16.6666666%;
+  }
+  .ml-sm-2 {
+    margin-left: 16.6666666%;
+  }
+  /*width global class*/
+  .col-sm-3 {
+    width: 24.9999999%;
+  }
+  /*padding global class*/
+  .pt-sm-3 {
+    padding-top: 24.9999999%;
+  }
+  .pb-sm-3 {
+    padding-bottom: 24.9999999%;
+  }
+  .pr-sm-3 {
+    padding-right: 24.9999999%;
+  }
+  .pl-sm-3 {
+    padding-left: 24.9999999%;
+  }
+  /*margin global class*/
+  .mt-sm-3 {
+    margin-top: 24.9999999%;
+  }
+  .mb-sm-3 {
+    margin-bottom: 24.9999999%;
+  }
+  .mr-sm-3 {
+    margin-right: 24.9999999%;
+  }
+  .ml-sm-3 {
+    margin-left: 24.9999999%;
+  }
+  /*width global class*/
+  .col-sm-4 {
+    width: 33.3333332%;
+  }
+  /*padding global class*/
+  .pt-sm-4 {
+    padding-top: 33.3333332%;
+  }
+  .pb-sm-4 {
+    padding-bottom: 33.3333332%;
+  }
+  .pr-sm-4 {
+    padding-right: 33.3333332%;
+  }
+  .pl-sm-4 {
+    padding-left: 33.3333332%;
+  }
+  /*margin global class*/
+  .mt-sm-4 {
+    margin-top: 33.3333332%;
+  }
+  .mb-sm-4 {
+    margin-bottom: 33.3333332%;
+  }
+  .mr-sm-4 {
+    margin-right: 33.3333332%;
+  }
+  .ml-sm-4 {
+    margin-left: 33.3333332%;
+  }
+  /*width global class*/
+  .col-sm-5 {
+    width: 41.6666665%;
+  }
+  /*padding global class*/
+  .pt-sm-5 {
+    padding-top: 41.6666665%;
+  }
+  .pb-sm-5 {
+    padding-bottom: 41.6666665%;
+  }
+  .pr-sm-5 {
+    padding-right: 41.6666665%;
+  }
+  .pl-sm-5 {
+    padding-left: 41.6666665%;
+  }
+  /*margin global class*/
+  .mt-sm-5 {
+    margin-top: 41.6666665%;
+  }
+  .mb-sm-5 {
+    margin-bottom: 41.6666665%;
+  }
+  .mr-sm-5 {
+    margin-right: 41.6666665%;
+  }
+  .ml-sm-5 {
+    margin-left: 41.6666665%;
+  }
+  /*width global class*/
+  .col-sm-6 {
+    width: 49.9999998%;
+  }
+  /*padding global class*/
+  .pt-sm-6 {
+    padding-top: 49.9999998%;
+  }
+  .pb-sm-6 {
+    padding-bottom: 49.9999998%;
+  }
+  .pr-sm-6 {
+    padding-right: 49.9999998%;
+  }
+  .pl-sm-6 {
+    padding-left: 49.9999998%;
+  }
+  /*margin global class*/
+  .mt-sm-6 {
+    margin-top: 49.9999998%;
+  }
+  .mb-sm-6 {
+    margin-bottom: 49.9999998%;
+  }
+  .mr-sm-6 {
+    margin-right: 49.9999998%;
+  }
+  .ml-sm-6 {
+    margin-left: 49.9999998%;
+  }
+  /*width global class*/
+  .col-sm-7 {
+    width: 58.3333331%;
+  }
+  /*padding global class*/
+  .pt-sm-7 {
+    padding-top: 58.3333331%;
+  }
+  .pb-sm-7 {
+    padding-bottom: 58.3333331%;
+  }
+  .pr-sm-7 {
+    padding-right: 58.3333331%;
+  }
+  .pl-sm-7 {
+    padding-left: 58.3333331%;
+  }
+  /*margin global class*/
+  .mt-sm-7 {
+    margin-top: 58.3333331%;
+  }
+  .mb-sm-7 {
+    margin-bottom: 58.3333331%;
+  }
+  .mr-sm-7 {
+    margin-right: 58.3333331%;
+  }
+  .ml-sm-7 {
+    margin-left: 58.3333331%;
+  }
+  /*width global class*/
+  .col-sm-8 {
+    width: 66.6666664%;
+  }
+  /*padding global class*/
+  .pt-sm-8 {
+    padding-top: 66.6666664%;
+  }
+  .pb-sm-8 {
+    padding-bottom: 66.6666664%;
+  }
+  .pr-sm-8 {
+    padding-right: 66.6666664%;
+  }
+  .pl-sm-8 {
+    padding-left: 66.6666664%;
+  }
+  /*margin global class*/
+  .mt-sm-8 {
+    margin-top: 66.6666664%;
+  }
+  .mb-sm-8 {
+    margin-bottom: 66.6666664%;
+  }
+  .mr-sm-8 {
+    margin-right: 66.6666664%;
+  }
+  .ml-sm-8 {
+    margin-left: 66.6666664%;
+  }
+  /*width global class*/
+  .col-sm-9 {
+    width: 74.9999997%;
+  }
+  /*padding global class*/
+  .pt-sm-9 {
+    padding-top: 74.9999997%;
+  }
+  .pb-sm-9 {
+    padding-bottom: 74.9999997%;
+  }
+  .pr-sm-9 {
+    padding-right: 74.9999997%;
+  }
+  .pl-sm-9 {
+    padding-left: 74.9999997%;
+  }
+  /*margin global class*/
+  .mt-sm-9 {
+    margin-top: 74.9999997%;
+  }
+  .mb-sm-9 {
+    margin-bottom: 74.9999997%;
+  }
+  .mr-sm-9 {
+    margin-right: 74.9999997%;
+  }
+  .ml-sm-9 {
+    margin-left: 74.9999997%;
+  }
+  /*width global class*/
+  .col-sm-10 {
+    width: 83.333333%;
+  }
+  /*padding global class*/
+  .pt-sm-10 {
+    padding-top: 83.333333%;
+  }
+  .pb-sm-10 {
+    padding-bottom: 83.333333%;
+  }
+  .pr-sm-10 {
+    padding-right: 83.333333%;
+  }
+  .pl-sm-10 {
+    padding-left: 83.333333%;
+  }
+  /*margin global class*/
+  .mt-sm-10 {
+    margin-top: 83.333333%;
+  }
+  .mb-sm-10 {
+    margin-bottom: 83.333333%;
+  }
+  .mr-sm-10 {
+    margin-right: 83.333333%;
+  }
+  .ml-sm-10 {
+    margin-left: 83.333333%;
+  }
+  /*width global class*/
+  .col-sm-11 {
+    width: 91.6666663%;
+  }
+  /*padding global class*/
+  .pt-sm-11 {
+    padding-top: 91.6666663%;
+  }
+  .pb-sm-11 {
+    padding-bottom: 91.6666663%;
+  }
+  .pr-sm-11 {
+    padding-right: 91.6666663%;
+  }
+  .pl-sm-11 {
+    padding-left: 91.6666663%;
+  }
+  /*margin global class*/
+  .mt-sm-11 {
+    margin-top: 91.6666663%;
+  }
+  .mb-sm-11 {
+    margin-bottom: 91.6666663%;
+  }
+  .mr-sm-11 {
+    margin-right: 91.6666663%;
+  }
+  .ml-sm-11 {
+    margin-left: 91.6666663%;
+  }
+  /*width global class*/
+  .col-sm-12 {
+    width: 99.9999996%;
+  }
+  /*padding global class*/
+  .pt-sm-12 {
+    padding-top: 99.9999996%;
+  }
+  .pb-sm-12 {
+    padding-bottom: 99.9999996%;
+  }
+  .pr-sm-12 {
+    padding-right: 99.9999996%;
+  }
+  .pl-sm-12 {
+    padding-left: 99.9999996%;
+  }
+  /*margin global class*/
+  .mt-sm-12 {
+    margin-top: 99.9999996%;
+  }
+  .mb-sm-12 {
+    margin-bottom: 99.9999996%;
+  }
+  .mr-sm-12 {
+    margin-right: 99.9999996%;
+  }
+  .ml-sm-12 {
+    margin-left: 99.9999996%;
+  }
+  main {
+    /*----------------style section manu-------------*/
+    /*------style section title in contabers-------*/
+    /*style contaner Tranding*/
+    /*------style section summer-------*/
+    /*------style section winter-------*/
+    /*------style section slider customer-------*/
+    /*global style*/
+  }
+  main .menu nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    color: #2f2f2f;
+  }
+  main .menu nav .logo {
+    display: flex;
+    font-size: 38px;
+    font-weight: bold;
+  }
+  main .menu nav .mainmenu {
+    display: none;
+  }
+  main .menu nav .icon {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .menu nav .icon img {
+    width: 24px;
+    height: 30px;
+  }
+  main .banner {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    direction: rtl;
+    position: relative;
+  }
+  main .banner .sectionimg img {
+    width: 250px;
+  }
+  main .banner .text {
+    direction: ltr;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 20px;
+    right: 0px;
+    text-align: left;
+    width: 40%;
+  }
+  main .banner .text h1 {
+    font-size: 28px;
+    font-family: wilkysta;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 30px;
+  }
+  main .banner .text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+  }
+  main .banner .text a {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 120px;
+    background-color: #754f23;
+    padding: 8px 10px;
+    color: white;
+    font-size: 14px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+  }
+  main .banner .text a img {
+    width: 30px;
+  }
+  main .title {
+    margin-top: 50px;
+  }
+  main .title h2 {
+    font-size: 35px;
+    font-family: wilkysta;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 4px;
+  }
+  main .title span {
+    font-size: 25px;
+  }
+  main .title .liner {
+    height: 2px;
+    background-color: #754f23;
+  }
+  main .title p {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  main .tranding {
+    margin-top: 60px;
+  }
+  main .tranding .contaner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    margin: 0 auto;
+    padding: 5px 0;
+  }
+  main .tranding .contaner .card:nth-child(1) {
+    margin-top: 20px;
+  }
+  main .tranding .contaner .card:nth-child(2) {
+    width: 350px;
+    height: 515px;
+  }
+  main .tranding .contaner .card:nth-child(2) img {
+    width: 90%; /*برای اینکه دیو شاپ از کدر خارج نشه از % برای عرض و ارتفاع تصویر ستفاده میکنیم */
+    height: 75%;
+  }
+  main .tranding .contaner .card {
+    border: 1px solid #754f23;
+    border-radius: 16px;
+    padding: 14px 14px 6px 14px;
+    width: 350px;
+    height: 515px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  main .tranding .contaner .card img {
+    width: 300px;
+    border-radius: 16px;
+  }
+  main .tranding .contaner .card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 24px 0;
+  }
+  main .tranding .contaner .card .shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  main .tranding .contaner .card .shop img {
+    width: 25px;
+  }
+  main .tranding .contaner .view__all_btn {
+    position: relative;
+    bottom: 5px;
+    left: 45%;
+    padding: 10px 32px;
+    border: 1px solid #754f23;
+    border-radius: 16px;
+    font-size: 24px;
+  }
+  main .tranding .contaner .view__all_btn:hover {
+    color: #754f23;
+  }
+  main .summer {
+    margin-top: 40px;
+  }
+  main .summer .contaner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    padding: 50px 0;
+  }
+  main .summer .contaner .summeritem {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  main .summer .contaner .summeritem p {
+    padding: 0 20px;
+    margin: 0px auto;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+  }
+  main .summer .contaner .summeritem p:first-child {
+    margin: 0 0 40px 0;
+    padding: 0;
+  }
+  main .summer .contaner .summeritem:nth-child(2) {
+    text-align: left;
+  }
+  main .summer .contaner .summeritem img {
+    width: 200px;
+  }
+  main .summer .contaner .summeritem div {
+    text-align: right;
+    position: relative;
+  }
+  main .summer .contaner .summeritem div img {
+    width: 200px;
+  }
+  main .summer .contaner .summeritem div img:nth-child(1) {
+    width: 100px;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+  }
+  main .summer .contaner .view__all_btn {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  main .winter {
+    margin-top: 50px;
+  }
+  main .winter .title {
+    text-align: right;
+  }
+  main .winter .title div {
+    margin-left: 65%;
+  }
+  main .winter .contaner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    padding: 50px 0;
+  }
+  main .winter .contaner .summeritem {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+  }
+  main .winter .contaner .summeritem p {
+    padding: 0 45px;
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%;
+    text-align: left;
+  }
+  main .winter .contaner .summeritem p:first-child {
+    margin: 0 0 40px 0;
+  }
+  main .winter .contaner .summeritem:nth-child(2) {
+    text-align: left;
+  }
+  main .winter .contaner .summeritem div {
+    width: 100%;
+    position: relative;
+  }
+  main .winter .contaner .summeritem div img:nth-child(1) {
+    width: 280px;
+    position: absolute;
+    left: 20%;
+    bottom: 0px;
+  }
+  main .winter .contaner .summeritem:nth-child(3) {
+    margin: 0;
+  }
+  main .winter .contaner .view__all_btn {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+  }
+  main .customer {
+    margin-bottom: 100px;
+  }
+  main .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  main .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .swiper-slide img {
+    display: block;
+    object-fit: cover;
+    width: 30%;
+    border-radius: 0px;
+  }
+  main .slider {
+    width: 100%;
+    height: 400px;
+  }
+  main .cardslide > div > img {
+    height: 40px;
+    width: 40px;
+  }
+  main .swiper-slide .cardslide {
+    display: flex;
+    margin-left: 50px;
+    gap: 20px;
+  }
+  main .swiper-slide .cardslide .text {
+    text-align: left;
+    width: 220px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    align-items: self-start;
+  }
+  main .swiper-slide .cardslide .text span {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  main .view__all_btn {
+    font-size: 20px;
+  }
+}
+/*xs screen*/
+@media screen and (max-width: 540px) {
+  /*width global class*/
+  .col-1 {
+    width: 8.3333333%;
+  }
+  /*padding global class*/
+  .pt-1 {
+    padding-top: 8.3333333%;
+  }
+  .pb-1 {
+    padding-bottom: 8.3333333%;
+  }
+  .pr-1 {
+    padding-right: 8.3333333%;
+  }
+  .pl-1 {
+    padding-left: 8.3333333%;
+  }
+  /*margin global class*/
+  .mt-1 {
+    margin-top: 8.3333333%;
+  }
+  .mb-1 {
+    margin-bottom: 8.3333333%;
+  }
+  .mr-1 {
+    margin-right: 8.3333333%;
+  }
+  .ml-1 {
+    margin-left: 8.3333333%;
+  }
+  /*width global class*/
+  .col-2 {
+    width: 16.6666666%;
+  }
+  /*padding global class*/
+  .pt-2 {
+    padding-top: 16.6666666%;
+  }
+  .pb-2 {
+    padding-bottom: 16.6666666%;
+  }
+  .pr-2 {
+    padding-right: 16.6666666%;
+  }
+  .pl-2 {
+    padding-left: 16.6666666%;
+  }
+  /*margin global class*/
+  .mt-2 {
+    margin-top: 16.6666666%;
+  }
+  .mb-2 {
+    margin-bottom: 16.6666666%;
+  }
+  .mr-2 {
+    margin-right: 16.6666666%;
+  }
+  .ml-2 {
+    margin-left: 16.6666666%;
+  }
+  /*width global class*/
+  .col-3 {
+    width: 24.9999999%;
+  }
+  /*padding global class*/
+  .pt-3 {
+    padding-top: 24.9999999%;
+  }
+  .pb-3 {
+    padding-bottom: 24.9999999%;
+  }
+  .pr-3 {
+    padding-right: 24.9999999%;
+  }
+  .pl-3 {
+    padding-left: 24.9999999%;
+  }
+  /*margin global class*/
+  .mt-3 {
+    margin-top: 24.9999999%;
+  }
+  .mb-3 {
+    margin-bottom: 24.9999999%;
+  }
+  .mr-3 {
+    margin-right: 24.9999999%;
+  }
+  .ml-3 {
+    margin-left: 24.9999999%;
+  }
+  /*width global class*/
+  .col-4 {
+    width: 33.3333332%;
+  }
+  /*padding global class*/
+  .pt-4 {
+    padding-top: 33.3333332%;
+  }
+  .pb-4 {
+    padding-bottom: 33.3333332%;
+  }
+  .pr-4 {
+    padding-right: 33.3333332%;
+  }
+  .pl-4 {
+    padding-left: 33.3333332%;
+  }
+  /*margin global class*/
+  .mt-4 {
+    margin-top: 33.3333332%;
+  }
+  .mb-4 {
+    margin-bottom: 33.3333332%;
+  }
+  .mr-4 {
+    margin-right: 33.3333332%;
+  }
+  .ml-4 {
+    margin-left: 33.3333332%;
+  }
+  /*width global class*/
+  .col-5 {
+    width: 41.6666665%;
+  }
+  /*padding global class*/
+  .pt-5 {
+    padding-top: 41.6666665%;
+  }
+  .pb-5 {
+    padding-bottom: 41.6666665%;
+  }
+  .pr-5 {
+    padding-right: 41.6666665%;
+  }
+  .pl-5 {
+    padding-left: 41.6666665%;
+  }
+  /*margin global class*/
+  .mt-5 {
+    margin-top: 41.6666665%;
+  }
+  .mb-5 {
+    margin-bottom: 41.6666665%;
+  }
+  .mr-5 {
+    margin-right: 41.6666665%;
+  }
+  .ml-5 {
+    margin-left: 41.6666665%;
+  }
+  /*width global class*/
+  .col-6 {
+    width: 49.9999998%;
+  }
+  /*padding global class*/
+  .pt-6 {
+    padding-top: 49.9999998%;
+  }
+  .pb-6 {
+    padding-bottom: 49.9999998%;
+  }
+  .pr-6 {
+    padding-right: 49.9999998%;
+  }
+  .pl-6 {
+    padding-left: 49.9999998%;
+  }
+  /*margin global class*/
+  .mt-6 {
+    margin-top: 49.9999998%;
+  }
+  .mb-6 {
+    margin-bottom: 49.9999998%;
+  }
+  .mr-6 {
+    margin-right: 49.9999998%;
+  }
+  .ml-6 {
+    margin-left: 49.9999998%;
+  }
+  /*width global class*/
+  .col-7 {
+    width: 58.3333331%;
+  }
+  /*padding global class*/
+  .pt-7 {
+    padding-top: 58.3333331%;
+  }
+  .pb-7 {
+    padding-bottom: 58.3333331%;
+  }
+  .pr-7 {
+    padding-right: 58.3333331%;
+  }
+  .pl-7 {
+    padding-left: 58.3333331%;
+  }
+  /*margin global class*/
+  .mt-7 {
+    margin-top: 58.3333331%;
+  }
+  .mb-7 {
+    margin-bottom: 58.3333331%;
+  }
+  .mr-7 {
+    margin-right: 58.3333331%;
+  }
+  .ml-7 {
+    margin-left: 58.3333331%;
+  }
+  /*width global class*/
+  .col-8 {
+    width: 66.6666664%;
+  }
+  /*padding global class*/
+  .pt-8 {
+    padding-top: 66.6666664%;
+  }
+  .pb-8 {
+    padding-bottom: 66.6666664%;
+  }
+  .pr-8 {
+    padding-right: 66.6666664%;
+  }
+  .pl-8 {
+    padding-left: 66.6666664%;
+  }
+  /*margin global class*/
+  .mt-8 {
+    margin-top: 66.6666664%;
+  }
+  .mb-8 {
+    margin-bottom: 66.6666664%;
+  }
+  .mr-8 {
+    margin-right: 66.6666664%;
+  }
+  .ml-8 {
+    margin-left: 66.6666664%;
+  }
+  /*width global class*/
+  .col-9 {
+    width: 74.9999997%;
+  }
+  /*padding global class*/
+  .pt-9 {
+    padding-top: 74.9999997%;
+  }
+  .pb-9 {
+    padding-bottom: 74.9999997%;
+  }
+  .pr-9 {
+    padding-right: 74.9999997%;
+  }
+  .pl-9 {
+    padding-left: 74.9999997%;
+  }
+  /*margin global class*/
+  .mt-9 {
+    margin-top: 74.9999997%;
+  }
+  .mb-9 {
+    margin-bottom: 74.9999997%;
+  }
+  .mr-9 {
+    margin-right: 74.9999997%;
+  }
+  .ml-9 {
+    margin-left: 74.9999997%;
+  }
+  /*width global class*/
+  .col-10 {
+    width: 83.333333%;
+  }
+  /*padding global class*/
+  .pt-10 {
+    padding-top: 83.333333%;
+  }
+  .pb-10 {
+    padding-bottom: 83.333333%;
+  }
+  .pr-10 {
+    padding-right: 83.333333%;
+  }
+  .pl-10 {
+    padding-left: 83.333333%;
+  }
+  /*margin global class*/
+  .mt-10 {
+    margin-top: 83.333333%;
+  }
+  .mb-10 {
+    margin-bottom: 83.333333%;
+  }
+  .mr-10 {
+    margin-right: 83.333333%;
+  }
+  .ml-10 {
+    margin-left: 83.333333%;
+  }
+  /*width global class*/
+  .col-11 {
+    width: 91.6666663%;
+  }
+  /*padding global class*/
+  .pt-11 {
+    padding-top: 91.6666663%;
+  }
+  .pb-11 {
+    padding-bottom: 91.6666663%;
+  }
+  .pr-11 {
+    padding-right: 91.6666663%;
+  }
+  .pl-11 {
+    padding-left: 91.6666663%;
+  }
+  /*margin global class*/
+  .mt-11 {
+    margin-top: 91.6666663%;
+  }
+  .mb-11 {
+    margin-bottom: 91.6666663%;
+  }
+  .mr-11 {
+    margin-right: 91.6666663%;
+  }
+  .ml-11 {
+    margin-left: 91.6666663%;
+  }
+  /*width global class*/
+  .col-12 {
+    width: 99.9999996%;
+  }
+  /*padding global class*/
+  .pt-12 {
+    padding-top: 99.9999996%;
+  }
+  .pb-12 {
+    padding-bottom: 99.9999996%;
+  }
+  .pr-12 {
+    padding-right: 99.9999996%;
+  }
+  .pl-12 {
+    padding-left: 99.9999996%;
+  }
+  /*margin global class*/
+  .mt-12 {
+    margin-top: 99.9999996%;
+  }
+  .mb-12 {
+    margin-bottom: 99.9999996%;
+  }
+  .mr-12 {
+    margin-right: 99.9999996%;
+  }
+  .ml-12 {
+    margin-left: 99.9999996%;
+  }
+  main {
+    /*----------------style section manu-------------*/
+    /*-----------style section banner----------*/
+    /*------style section title in contabers-------*/
+    /*style contaner Tranding*/
+    /*------style section summer-------*/
+    /*------style section winter-------*/
+    /*------style section slider customer-------*/
+  }
+  main .menu nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    color: #2f2f2f;
+  }
+  main .menu nav .logo {
+    display: flex;
+    font-size: 38px;
+    font-weight: bold;
+  }
+  main .menu nav .mainmenu {
+    display: none;
+  }
+  main .menu nav .icon {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .menu nav .icon img {
+    width: 24px;
+    height: 30px;
+  }
+  main .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+  main .banner .sectionimg img {
+    width: 220px;
+    margin-left: 22.5%;
+  }
+  main .banner .text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  main .banner .text h1 {
+    font-size: 35px;
+    line-height: 40px;
+    font-family: wilkysta;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  main .banner .text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+  }
+  main .banner .text a {
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #754f23;
+    width: 50%;
+    margin: 10px auto;
+    padding: 12px 38px;
+    color: white;
+    font-size: 18px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+  }
+  main .title h2 {
+    font-size: 35px;
+    font-family: wilkysta;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 4px;
+  }
+  main .title span {
+    font-size: 25px;
+  }
+  main .title .liner {
+    height: 2px;
+    background-color: #754f23;
+  }
+  main .title p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  main .tranding {
+    margin-top: 60px;
+  }
+  main .tranding .contaner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    margin: 0 auto;
+    padding: 5px 0;
+  }
+  main .tranding .contaner .card:nth-child(1) {
+    margin-top: 20px;
+  }
+  main .tranding .contaner .card:nth-child(2) {
+    width: 350px;
+    height: 515px;
+  }
+  main .tranding .contaner .card:nth-child(2) img {
+    width: 90%; /*برای اینکه دیو شاپ از کدر خارج نشه از % برای عرض و ارتفاع تصویر ستفاده میکنیم */
+    height: 75%;
+  }
+  main .tranding .contaner .card {
+    border: 1px solid #754f23;
+    border-radius: 16px;
+    padding: 14px 14px 6px 14px;
+    width: 350px;
+    height: 515px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  main .tranding .contaner .card img {
+    width: 300px;
+    border-radius: 16px;
+  }
+  main .tranding .contaner .card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 24px 0;
+  }
+  main .tranding .contaner .card .shop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  main .tranding .contaner .card .shop img {
+    width: 25px;
+  }
+  main .tranding .contaner .view__all_btn {
+    position: relative;
+    bottom: 5px;
+    left: 45%;
+    padding: 10px 32px;
+    border: 1px solid #754f23;
+    border-radius: 16px;
+    font-size: 24px;
+  }
+  main .tranding .contaner .view__all_btn:hover {
+    color: #754f23;
+  }
+  main .summer {
+    margin-top: 40px;
+  }
+  main .summer .contaner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+    padding: 50px 0;
+  }
+  main .summer .contaner .summeritem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 50px;
+    margin: 0 auto;
+  }
+  main .summer .contaner .summeritem p {
+    margin: 0px auto;
+    font-size: 14px;
+    line-height: 20px;
+    width: 380px;
+  }
+  main .summer .contaner .summeritem p:first-child {
+    padding: 0;
+  }
+  main .summer .contaner .summeritem:nth-child(2) {
+    text-align: left;
+  }
+  main .summer .contaner .summeritem img {
+    width: 340px;
+  }
+  main .summer .contaner .summeritem div {
+    text-align: right;
+    position: relative;
+  }
+  main .summer .contaner .summeritem div img {
+    width: 340px;
+  }
+  main .summer .contaner .summeritem div img:nth-child(1) {
+    width: 160px;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+  }
+  main .summer .contaner .summeritem:nth-child(2) {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  main .summer .contaner .view__all_btn {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  main .winter {
+    margin-top: 50px;
+  }
+  main .winter .title {
+    text-align: right;
+  }
+  main .winter .title div {
+    margin-left: 65%;
+  }
+  main .winter .contaner {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 25px;
+    align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+    position: relative;
+  }
+  main .winter .contaner .summeritem {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+  }
+  main .winter .contaner .summeritem p {
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%;
+    text-align: left;
+  }
+  main .winter .contaner .summeritem:nth-child(2) {
+    text-align: left;
+  }
+  main .winter .contaner .summeritem div {
+    width: 100%;
+    position: relative;
+  }
+  main .winter .contaner .summeritem div img {
+    width: 300px;
+  }
+  main .winter .contaner .summeritem div img:nth-child(1) {
+    width: 280px;
+    position: absolute;
+    left: 20%;
+    bottom: 0px;
+  }
+  main .winter .contaner .summeritem:nth-child(3) {
+    margin: 0;
+  }
+  main .winter .contaner .view__all_btn {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+  }
+  main .customer {
+    margin-bottom: 100px;
+  }
+  main .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  main .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .swiper-slide img {
+    display: block;
+    object-fit: cover;
+    width: 60%;
+    border-radius: 0px;
+  }
+  main .slider {
+    width: 100%;
+    height: 500px;
+  }
+  main .cardslide > div > img {
+    height: 40px;
+    width: 40px;
+  }
+  main .swiper-slide .cardslide {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 20px;
+  }
+  main .swiper-slide .cardslide .text {
+    text-align: left;
+    width: 250px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: self-start;
+  }
+  main .swiper-slide .cardslide .text span {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  main .view__all_btn {
+    font-size: 18px;
+  }
+}
+/*------style section bottom-------*/
+.view__all_btn {
+  padding: 10px 32px;
+  border: 1px solid #754f23;
+  border-radius: 16px;
+  font-size: 24px;
+}
+
+.view__all_btn:hover {
+  color: #754f23;
+}
+
+/*------section footer-------*/
+footer {
+  background-color: #754f23;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  color: white;
+  padding: 40px;
+  padding-bottom: 80px;
+}
+footer .sec1,
+footer .sec2,
+footer .sec3,
+footer .sec2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: self-start;
+}
+footer .sec1 a,
+footer .sec2 a,
+footer .sec3 a,
+footer .sec2 ul a {
+  color: white;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/*------section menumobile-------*/
+.menumobile {
+  background: rgba(255, 255, 255, 0.2); /* رنگ سفید شفاف */
+  backdrop-filter: blur(5px); /* بلور شیشه‌ای */
+  -webkit-backdrop-filter: blur(10px); /* برای Safari */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  left: 50%; /* نصف صفحه */
+  transform: translateX(-50%);
+  padding: 20px;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0 0 15px gray;
+  border: 2px solid rgba(255, 255, 255, 0.3); /* خط مرزی لطیف */
+  height: 70px;
+  z-index: 1000;
+}
+.menumobile .menusvg {
+  width: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */

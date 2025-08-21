@@ -1,0 +1,66 @@
+@import "setting";
+@import "media";
+@include media(1200px);
+@include media(992px);
+@include media(768px);
+@include media(540px);
+@include media(539px);
+
+/*------style section bottom-------*/
+.view__all_btn {
+  padding: 10px 32px;
+  border: 1px solid #754f23;
+  border-radius: 16px;
+  font-size: 24px;
+}
+.view__all_btn:hover {
+  color: #754f23;
+}
+
+/*------section footer-------*/
+footer {
+  background-color: #754f23;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  color: white;
+  padding: 40px;
+  padding-bottom: 80px;
+  .sec1,
+  .sec2,
+  .sec3,
+  .sec2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: self-start;
+    a {
+      color: white;
+      display: inline-block;
+      margin-left: 5px;
+    }
+  }
+}
+
+/*------section menumobile-------*/
+.menumobile {
+  background: rgba(255, 255, 255, 0.2); /* رنگ سفید شفاف */
+  backdrop-filter: blur(5px); /* بلور شیشه‌ای */
+  -webkit-backdrop-filter: blur(10px); /* برای Safari */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  left: 50%; /* نصف صفحه */
+  transform: translateX(-50%);
+  padding: 20px;
+  border-radius: 15px 15px 0 0;
+  box-shadow: 0 0 15px gray;
+  border: 2px solid rgba(255, 255, 255, 0.3); /* خط مرزی لطیف */
+  height: 70px;
+  z-index: 1000;
+  .menusvg {
+    width: 30px;
+  }
+}
