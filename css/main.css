@@ -3500,29 +3500,39 @@ main {
 /*------section footer-------*/
 footer {
   background-color: #754f23;
+  padding: 40px;
+  padding-bottom: 50px;
+}
+footer nav {
   display: flex;
   justify-content: space-evenly;
   gap: 40px;
   color: white;
-  padding: 40px;
-  padding-bottom: 80px;
 }
-footer .sec1,
-footer .sec2,
-footer .sec3,
-footer .sec2 ul {
+footer nav .sec1,
+footer nav .sec2,
+footer nav .sec3,
+footer nav .sec2 ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: self-start;
 }
-footer .sec1 a,
-footer .sec2 a,
-footer .sec3 a,
-footer .sec2 ul a {
+footer nav .sec1 a,
+footer nav .sec2 a,
+footer nav .sec3 a,
+footer nav .sec2 ul a {
   color: white;
   display: inline-block;
   margin-left: 5px;
+}
+footer .info {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 30px 0;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 /*------section menumobile-------*/

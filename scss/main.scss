@@ -16,29 +16,39 @@
 .view__all_btn:hover {
   color: #754f23;
 }
-
+// nazaninkhodaverdi/mephiiii
 /*------section footer-------*/
 footer {
   background-color: #754f23;
-  display: flex;
-  justify-content: space-evenly;
-  gap: 40px;
-  color: white;
   padding: 40px;
-  padding-bottom: 80px;
-  .sec1,
-  .sec2,
-  .sec3,
-  .sec2 ul {
+  padding-bottom: 50px;
+  nav {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: self-start;
-    a {
-      color: white;
-      display: inline-block;
-      margin-left: 5px;
+    justify-content: space-evenly;
+    gap: 40px;
+    color: white;
+    .sec1,
+    .sec2,
+    .sec3,
+    .sec2 ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: self-start;
+      a {
+        color: white;
+        display: inline-block;
+        margin-left: 5px;
+      }
     }
+  }
+  .info {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -64,3 +74,4 @@ footer {
     width: 30px;
   }
 }
+// nazaninkhodaverdi/mephiiii
