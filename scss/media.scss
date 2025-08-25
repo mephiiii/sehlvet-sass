@@ -42,6 +42,9 @@ $sm: 540px;
       // body {
       //   background-color: rgb(230, 106, 106);
       // }
+      .mainpage {
+        width: 1150px;
+      }
       main {
         /*----------------style section manu-------------*/
         .menu nav {
@@ -1796,7 +1799,7 @@ $sm: 540px;
             }
             .view__all_btn {
               position: absolute;
-              bottom: 20px;
+              bottom: 0px;
               right: 50px;
             }
           }

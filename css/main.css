@@ -390,6 +390,9 @@ main {
   .ml-xl-12 {
     margin-left: 99.9999996%;
   }
+  .mainpage {
+    width: 1150px;
+  }
   main {
     /*----------------style section manu-------------*/
     /*------style section title in contabers-------*/
@@ -3431,7 +3434,7 @@ main {
   }
   main .winter .contaner .view__all_btn {
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     right: 50px;
   }
   main .customer {
@@ -3525,14 +3528,6 @@ footer nav .sec2 ul a {
   color: white;
   display: inline-block;
   margin-left: 5px;
-}
-footer .info {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 30px 0;
-  color: white;
-  display: flex;
-  justify-content: center;
 }
 
 /*------section menumobile-------*/
