@@ -648,7 +648,7 @@ $sm: 540px;
             display: flex;
             justify-content: center;
             gap: 0px;
-            align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
+            align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسه باید این خط رو بنویسیم*/
             position: relative;
             padding: 50px 0;
             .summeritem {
@@ -784,7 +784,7 @@ $sm: 540px;
           width: 100%;
           display: flex;
           justify-content: space-between;
-          align-items: center;
+          align-items: center; /*nazaninkhodaverdi/mephiiii*/
           height: 120px;
           color: #2f2f2f;
           .logo {
@@ -885,8 +885,7 @@ $sm: 540px;
           .contaner {
             display: flex;
             justify-content: center;
-            flex-wrap: wrap; /* این خط باعث میشه آیتم‌ها تو خط جدید برن */
-
+            flex-wrap: wrap;
             gap: 50px;
             align-items: flex-start; /*  برای اینکه ارتفاع بچه از پدر به ارث نرسد باید این خط رو بنویسیم*/
             position: relative;
@@ -1108,7 +1107,7 @@ $sm: 540px;
           align-items: center;
           position: fixed;
           bottom: 0px;
-          left: 50%; /* نصف صفحه */
+          left: 50%;
           transform: translateX(-50%);
           padding: 20px;
           border-radius: 15px 15px 0 0;
